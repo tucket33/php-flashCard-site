@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Iceland", cursive;
+  font-size: 42px;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: $body-bg;
+  @include flexCenter;
+  font-family: "Iceland", cursive;
+
+  flex-direction: column;
+  padding-bottom: 60px;
+}
